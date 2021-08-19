@@ -26,7 +26,7 @@ run:
 		--network="host" \
 		-e DISPLAY="${DISPLAY}" \
 		-v /tmp/.X11-unix:/tmp/.X11-unix \
-		-v ${TAGNAME}Data:/root \
+		-v ${TAGNAME}Data:/home/user \
 		--memory=4g \
 		--memory-swap=4g \
 		${TAGNAME}
